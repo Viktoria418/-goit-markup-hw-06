@@ -732,12 +732,15 @@ fill: var(--color-accent);
 	}
 	.modal-form-field {
 		display: block;	
-		margin-bottom: 10px;
 		font-size: 12px;
 		line-height: 1.17;
 		letter-spacing: 0.01em;
 		color: var(--color-contact);
 		}
+.modal-form-field:not(:last-child) {
+	margin-bottom: 10px;
+}
+
 	.modal-form-input {
 		/* display: block; */
 		height: 40px;
